@@ -51,6 +51,37 @@
             "locale": "zh-Hant"
           }
         }
+      },
+      "FsUnit/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "5.0.2",
+          "NUnit": "4.0.1"
+        },
+        "compile": {
+          "lib/net6.0/FsUnit.NUnit.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FsUnit.NUnit.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        }
+      },
+      "NUnit/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/nunit.framework.dll": {},
+          "lib/net6.0/nunit.framework.legacy.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {},
+          "lib/net6.0/nunit.framework.legacy.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
       }
     }
   },
@@ -94,11 +125,50 @@
         "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
         "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
       ]
+    },
+    "FsUnit/6.0.0": {
+      "sha512": "XDZamUZ6uu9517/sGnMGtGLZQf/r1JReCjir6aZHrfIH7ZLw49PjmIOjtNmFL3w7F1ii7S/j9e7tO4HNEqlv9A==",
+      "type": "package",
+      "path": "fsunit/6.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsunit.6.0.0.nupkg.sha512",
+        "fsunit.nuspec",
+        "lib/net6.0/FsUnit.NUnit.deps.json",
+        "lib/net6.0/FsUnit.NUnit.dll",
+        "lib/net6.0/FsUnit.NUnit.pdb",
+        "tools/install.ps1"
+      ]
+    },
+    "NUnit/4.0.1": {
+      "sha512": "jNTHZ01hJsDNPDSBycoHpavFZUBf9vRVQLCyuo78LRrrFj6Ol/CeqK+NIeTk5d8Eycjk59KseWb7X5Ge6z7CgQ==",
+      "type": "package",
+      "path": "nunit/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.md",
+        "README.md",
+        "THIRD_PARTY_NOTICES.md",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net462/nunit.framework.dll",
+        "lib/net462/nunit.framework.legacy.dll",
+        "lib/net6.0/nunit.framework.dll",
+        "lib/net6.0/nunit.framework.legacy.dll",
+        "nunit.4.0.1.nupkg.sha512",
+        "nunit.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "FSharp.Core >= 8.0.200"
+      "FSharp.Core >= 8.0.200",
+      "FsUnit >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -144,6 +214,10 @@
             "target": "Package",
             "version": "[8.0.200, )",
             "generatePathProperty": true
+          },
+          "FsUnit": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [

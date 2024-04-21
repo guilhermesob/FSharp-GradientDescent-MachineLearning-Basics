@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MTPeNG9Kha1LAK+l3I4q1mNUStT2UCslrgmSGZUXBy0bdY6haLFYbF9fW/wRvot5BezIZDd9aKSEJ2Z3kK4q5Q==",
+  "dgSpecHash": "L8p1nBmd1TJ9ReKRCt8rt+zR+eZr6f0wo47TKWHkHDDjig18g7ZzSS3hBgAswrp6KlCF0ftwkQVTPeR+2CFJbA==",
   "success": true,
   "projectFilePath": "/workspaces/FSharp-GradientDescent-MachineLearning-Basics/Guilhermesob-FSharp-GradientDescent-MachineLearning-Basics/Guilhermesob-FSharp-GradientDescent-MachineLearning-Basics.fsproj",
   "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/fsharp.core/8.0.200/fsharp.core.8.0.200.nupkg.sha512"
+    "/home/codespace/.nuget/packages/fsharp.core/8.0.200/fsharp.core.8.0.200.nupkg.sha512",
+    "/home/codespace/.nuget/packages/fsunit/6.0.0/fsunit.6.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/nunit/4.0.1/nunit.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
