@@ -59,6 +59,32 @@ Este projeto é uma excelente maneira de aprender F# e como os algoritmos de oti
 
 Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria ou encontrar algum bug, por favor, abra uma issue ou envie um pull request.
 
+## Instalação
+
+Para executar este projeto, você precisará ter o F# e o .NET Core instalados em seu sistema. Siga as instruções de instalação no site oficial do F# e do .NET Core.
+
+Depois de instalar o F# e o .NET Core, clone este repositório e navegue até o diretório do projeto.
+
+## Uso
+
+Para executar o projeto, abra um terminal e navegue até o diretório do projeto. Em seguida, execute o seguinte comando:
+
+```
+bash dotnet run
+```
+
+Isso compilará e executará o projeto, exibindo os resultados no terminal.
+Adici
+
+## Estrutura do Projeto
+
+O projeto é estruturado da seguinte maneira:
+
+- `src/`: Contém o código-fonte do projeto.
+- `tests/`: Contém os testes unitários, se aplicável.
+- `README.md`: Este arquivo, que contém informações sobre o projeto, como instalar e usar.
+- 
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
