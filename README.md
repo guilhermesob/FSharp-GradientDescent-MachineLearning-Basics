@@ -83,7 +83,7 @@ O projeto é estruturado da seguinte maneira:
 - `src/`: Contém o código-fonte do projeto.
 - `tests/`: Contém os testes unitários, se aplicável.
 - `README.md`: Este arquivo, que contém informações sobre o projeto, como instalar e usar.
-- 
+
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
